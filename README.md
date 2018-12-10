@@ -1,17 +1,17 @@
 # Ignite Scala Consistancy
-Ignite and Scala integration test and consistancy issue
+Scala and Ignite consistancy issue
 
 ![Ignite Error](https://github.com/shikya/ignite-scala-consistancy/raw/master/images/ignite%20error.PNG "Ignite Error")
 
 ## Requirements
 
-+Scala 2.12.2
++ Scala 2.12.2
 
-+sbt
++ sbt
 
-+ignite binaries 2.6.0
++ ignite binaries 2.6.0
 
-+IDE prefred: Intellij IDEA
++ IDE prefred: Intellij IDEA
 
 
 ## To reproduce,
