@@ -1,0 +1,5 @@
+ignite-config/.idea/
+ignite-config/project/
+ignite-config/target/
+ignite-config/out/
+ignite-config/ignite-config.properties
