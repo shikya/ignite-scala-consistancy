@@ -3,3 +3,9 @@ ignite-config/project/
 ignite-config/target/
 ignite-config/out/
 ignite-config/ignite-config.properties
+ignite-data-consistancy/.idea/
+ignite-data-consistancy/data/ignite-storage1/
+ignite-data-consistancy/data/ignite-storage2/
+ignite-data-consistancy/data/ignite-storage3/
+ignite-data-consistancy/project/
+ignite-data-consistancy/target/
