@@ -14,7 +14,7 @@ Scala and Ignite consistancy issue
 + IDE prefred: Intellij IDEA
 
 
-## To reproduce,
+## To Reproduce
 
 Compile the jar of ignite-config.
 
@@ -37,9 +37,9 @@ Once the third cluster is up, The cluster will start.
 
 Compile and run the ignite-data-consistency.
 
-Log  **[START] injecting fake data.** represents the start of fake data in ignite cluster.
+Log  `[START] injecting fake data.` represents the start of fake data in ignite cluster.
 
-**[START] Checking records** represents that data check has been started.
+`[START] Checking records` represents that data check has been started.
 
 Now kill one ignite node. Prefer to kill the node which has 3.xml.
 
