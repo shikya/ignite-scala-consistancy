@@ -1,5 +1,4 @@
 # Ignite Consistancy Issue
-Scala and Ignite consistancy issue
 
 ![Ignite Error](https://github.com/shikya/ignite-scala-consistancy/raw/master/images/ignite%20error.PNG "Ignite Error")
 
@@ -29,7 +28,7 @@ Replace the storage paths in ignite configurations
 
 Run the 3 nodes using the configuration above.
 
-For windows, you can run "start %IGNITE_HOME%\bin\ignite.bat "C:\personal-repositories\ignite-data-consistancy\ignite-runner\1.xml"" in console. to start a single node.
+For windows, you can run `start %IGNITE_HOME%\bin\ignite.bat "C:\personal-repositories\ignite-data-consistancy\ignite-runner\1.xml"` in console. to start a single node.
 
 To start all node run "runall.bat"
 
