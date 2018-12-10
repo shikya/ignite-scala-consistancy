@@ -3,7 +3,7 @@ Ignite and Scala integration test and consistancy issue
 
 ## TODOs
 
-- [ ] Starter Project
+- [x] Starter Project
 - [ ] Jar for ignite
 - [ ] Code for scala
 - [ ] Windows Runner
