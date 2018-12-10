@@ -1,5 +1,5 @@
-# ignite-scala-consistancy
-Ignite and Scala integration test
+# Ignite Scala Consistancy
+Ignite and Scala integration test and consistancy issue
 
 ## TODOs
 
