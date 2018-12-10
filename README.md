@@ -1,10 +1,21 @@
 # Ignite Scala Consistancy
 Ignite and Scala integration test and consistancy issue
 
-Requirements: Scala 2.12.2, sbt, ignite binaries 2.6.0
-IDE prefred: Intellij IDEA
+![Ignite Error](https://github.com/shikya/ignite-scala-consistancy/raw/master/images/ignite%20error.PNG "Ignite Error")
 
-To reproduce,
+## Requirements
+
++Scala 2.12.2
+
++sbt
+
++ignite binaries 2.6.0
+
++IDE prefred: Intellij IDEA
+
+
+## To reproduce,
+
 Compile the jar of ignite-config.
 Put the jar in ignite lib folder.
 The contains a lifecycle event which will start the cluster once node count becomes 3.
