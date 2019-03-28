@@ -15,41 +15,38 @@
 
 ## To Reproduce
 
-Compile the jar of ignite-config.
+1. Compile the jar of ignite-config. Or Copy jar from `ignite-scala-consistancy\ignite-config\out\artifacts\ignite_config_jar`. This contains a lifecycle event which will start the cluster once node count becomes 3.
 
-Put the jar in ignite lib folder.
+1. Put the jar in ignite lib folder.
 
-The contains a lifecycle event which will start the cluster once node count becomes 3.
+1. Replace the storage paths in ignite configurations
 
+   1.xml, 2.xml, and 3.xml
 
-Replace the storage paths in ignite configurations
+1. Run the 3 nodes using the configuration above.
 
-1.xml, 2.xml, and 3.xml
+   For windows, you can run `start %IGNITE_HOME%\bin\ignite.bat "C:\personal-repositories\ignite-data-consistancy\ignite-runner\1.xml"` in console. to start a single node.
 
-Run the 3 nodes using the configuration above.
+1. To start all node run "runall.bat"
 
-For windows, you can run `start %IGNITE_HOME%\bin\ignite.bat "C:\personal-repositories\ignite-data-consistancy\ignite-runner\1.xml"` in console. to start a single node.
+1. Once the third cluster is up, The cluster will start.
 
-To start all node run "runall.bat"
+1. Compile and run the ignite-data-consistency.
 
-Once the third cluster is up, The cluster will start.
+   Log  `[START] injecting fake data.` represents the start of fake data in ignite cluster.
 
-Compile and run the ignite-data-consistency.
+   `[START] Checking records` represents that data check has been started.
 
-Log  `[START] injecting fake data.` represents the start of fake data in ignite cluster.
+1. Now kill one ignite node. Prefer to kill the node which has 3.xml.
 
-`[START] Checking records` represents that data check has been started.
+1. This will make the ignite node count to 2.
 
-Now kill one ignite node. Prefer to kill the node which has 3.xml.
+1. Now delete the storage data of that node to reset it.
 
-This will make the ignite node count to 2.
-
-Now delete the storage data of that node to reset it.
-
-Start ignite node with 3.xml. This will make the ignite nodes count again to 3.
+1. Start ignite node with 3.xml. This will make the ignite nodes count again to 3.
 
 
-In the background, The latest node will start to pull data from other to nodes. And at a certain time the program will throw "[ERROR] from ignite ${size} vs actual ${counter} " error.
+   In the background, The latest node will start to pull data from other to nodes. And at a certain time the program will throw "[ERROR] from ignite ${size} vs actual ${counter} " error.
 Here size is the actual size which should be present in the node
 the counter is the actual size which is present in the node.
 
