@@ -47,7 +47,8 @@
 
 
    In the background, The latest node will start to pull data from other to nodes. And at a certain time the program will throw "[ERROR] from ignite ${size} vs actual ${counter} " error.
-Here size is the actual size which should be present in the node
+
+   Here size is the actual size which should be present in the node
 the counter is the actual size which is present in the node.
 
 
