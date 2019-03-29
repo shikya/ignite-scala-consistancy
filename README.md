@@ -25,7 +25,9 @@
 
 1. Run the 3 nodes using the configuration above.
 
-   For windows, you can run `start %IGNITE_HOME%\bin\ignite.bat "C:\personal-repositories\ignite-data-consistancy\ignite-runner\1.xml"` in console. to start a single node.
+   For windows, you can run `start %IGNITE_HOME%\bin\ignite.bat "C:\personal-repositories\ignite-scala-consistancy\ignite-data-consistancy\ignite-runner"` in console. to start a single node.
+   
+   For linux, run ignite using ignite.sh with the xml files to create cluster of 3 nodes
 
 1. To start all node run "runall.bat"
 
