@@ -30,7 +30,7 @@ object Application extends App {
   //  200000+ are recommanded
   println("This will take some time")
   println("[START] injecting fake data.")
-  for(a <- 1 to 200) {
+  for(a <- 1 to 2000) {
     val person = Person.getRandom(a)
     personIgniteCache.put(counter, person)
     counter = counter + 1
