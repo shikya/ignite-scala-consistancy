@@ -1,6 +1,13 @@
 # Ignite Consistancy Issue
 
+Error with Ignite 2.6.0
 ![Ignite Error](https://github.com/shikya/ignite-scala-consistancy/raw/master/images/ignite%20error.PNG "Ignite Error")
+
+Error with Ignite 2.7.0
+![Ignite Error](https://github.com/shikya/ignite-scala-consistancy/raw/master/images/ignite%20error2.PNG "Ignite Error")
+
+Error with Ignite 2.7.0
+![Ignite Error](https://github.com/shikya/ignite-scala-consistancy/raw/master/images/ignite%20error3.PNG "Ignite Error")
 
 ## Requirements
 
