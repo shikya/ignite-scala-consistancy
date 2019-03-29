@@ -8,7 +8,7 @@
 
 + sbt
 
-+ ignite binaries 2.6.0
++ ignite binaries 2.7.0
 
 + IDE prefred: Intellij IDEA
 
